@@ -13,7 +13,7 @@ class Component<T> {
 }
 
 class Page extends Component<CompProp> {
-  pageInfo () {
+  pageInfo ():void {
     console.log(this.props.title);
   }
 }
